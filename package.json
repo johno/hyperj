@@ -1,0 +1,15 @@
+{
+  "name": "hyperj",
+  "description": "Just a hyper theme",
+  "author": "John Otander",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "johnotander/hyperj",
+  "keywords": [
+    "hyper",
+    "hyper-theme"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
