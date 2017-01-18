@@ -50,15 +50,17 @@ module.exports.decorateConfig = config => Object.assign({}, config, {
       border-color: ${backgroundColor} !important;
     }
 
-		.term_fit:not(.term_term) {
-			opacity: .7;
-		}
+    .term_fit:not(.term_term) {
+      opacity: .7;
+    }
 
-		.term_fit.term_active,
+    .term_fit.term_active,
     .tab_tab.tab_active,
     .tabs_title {
-			opacity: 1;
-		}
+      opacity: 1;
+      transition: opacity .1s ease-in-out;
+      will-change: opacity;
+    }
   `
 })
 
