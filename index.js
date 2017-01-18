@@ -58,8 +58,6 @@ module.exports.decorateConfig = config => Object.assign({}, config, {
     .tab_tab.tab_active,
     .tabs_title {
 			opacity: 1;
-			transition: opacity .1s ease-in-out;
-			will-change: opacity;
 		}
   `
 })
