@@ -2,7 +2,7 @@
   "name": "hyperj",
   "description": "Just a hyper theme",
   "author": "John Otander",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "johnotander/hyperj",
   "keywords": [
