@@ -1,4 +1,4 @@
-const foregroundColor = '#222'
+const foregroundColor = 'rgba(0, 0, 0, .8)'
 const backgroundColor = 'rgba(253, 253, 253, .8)'
 const tabBackgroundColor = 'rgba(240, 240, 240, .3)'
 const borderColor = '#f1f1f1'
