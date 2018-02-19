@@ -1,7 +1,7 @@
-const foregroundColor = '#111'
-const backgroundColor = '#fff'
-const tabBackgroundColor = '#fff'
-const borderColor = '#fafafa'
+const foregroundColor = 'rgb(17, 17, 17)'
+const backgroundColor = 'rgb(255, 255, 255)'
+const tabBackgroundColor = 'rgb(255, 255, 255)'
+const borderColor = 'rgb(250, 250, 250)'
 const cursorColor = 'rgb(244, 66, 173, .4)'
 
 module.exports.decorateConfig = config => Object.assign({}, config, {
