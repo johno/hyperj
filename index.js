@@ -1,30 +1,10 @@
-const foregroundColor = 'rgba(0, 0, 0, .8)'
-const backgroundColor = 'rgba(253, 253, 253, .8)'
-const tabBackgroundColor = 'rgba(240, 240, 240, .3)'
-const borderColor = '#f1f1f1'
+const foregroundColor = '#111'
+const backgroundColor = '#fff'
+const tabBackgroundColor = '#fff'
+const borderColor = '#fafafa'
 const cursorColor = 'rgb(244, 66, 173, .4)'
 
-const colors = {
-	black: foregroundColor,
-	red: '#e7040f',
-	green: '#19a974',
-	yellow: '#ffd700',
-	blue: '#357edd',
-	magenta: '#ff41b4',
-	cyan: '#96ccff',
-	white: '#f1f1f1',
-	lightBlack: '#686868',
-	lightRed: '#ff725c',
-	lightGreen: '#9eebcf',
-	lightYellow: '#fbf1a9',
-	lightBlue: '#96ccff',
-	lightMagenta: '#ffa3d7',
-	lightCyan: '#96ccff',
-	lightWhite: '#f1f1f1'
-}
-
 module.exports.decorateConfig = config => Object.assign({}, config, {
-  colors,
 	cursorColor,
 	backgroundColor,
 	borderColor,
@@ -63,5 +43,3 @@ module.exports.decorateConfig = config => Object.assign({}, config, {
     }
   `
 })
-
-module.exports.onWindow = browserWindow => browserWindow.setVibrancy('light')
