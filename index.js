@@ -30,7 +30,7 @@ module.exports.decorateConfig = config => Object.assign({}, config, {
       border-color: ${backgroundColor} !important;
     }
 
-    .term_fit:not(.term_term) {
+    .term_fit:not(.term_active) {
       opacity: .7;
     }
 
