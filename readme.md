@@ -4,7 +4,9 @@ Just a hyper theme.
 
 #### Installation
 
-Add `'hyperj'` to your `~/.hyper.js` plugins list.
+```
+hyper i hyperj
+```
 
 #### License
 
