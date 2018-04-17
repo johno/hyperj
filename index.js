@@ -12,34 +12,5 @@ module.exports.decorateConfig = config => Object.assign({}, config, {
 
   css: `
     ${config.css}
-
-    .tab_tab,
-    .tabs_title {
-      opacity: .7;
-      color: ${foregroundColor} !important;
-      background-color: ${tabBackgroundColor} !important;
-    }
-
-    .tab_tab.tab_active,
-    .tabs_title {
-      font-weight: 600;
-    }
-
-    .tab_tab.tab_active {
-      background-color: ${backgroundColor} !important;
-      border-color: ${backgroundColor} !important;
-    }
-
-    .term_fit:not(.term_active) {
-      opacity: .7;
-    }
-
-    .term_fit.term_active,
-    .tab_tab.tab_active,
-    .tabs_title {
-      opacity: 1;
-      transition: opacity .1s ease-in-out;
-      will-change: opacity;
-    }
   `
 })
